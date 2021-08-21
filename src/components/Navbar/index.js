@@ -76,15 +76,15 @@ const Navbar = ({ toggle }) => {
                 exact="true"
                 offset={-80}
               >
-                Services
+                Projects
               </NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="signup">Sign Up</NavLinks>
+              <NavLinks to="signup">Contact</NavLinks>
             </NavItem>
           </NavMenu>
           <NavBtn>
-            <NavBtnLink to="/signin">Sign In</NavBtnLink>
+            <NavBtnLink to="/signin">Full Resume</NavBtnLink>
           </NavBtn>
         </NavbarContainer>
       </Nav>

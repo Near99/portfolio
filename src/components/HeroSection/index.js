@@ -26,10 +26,12 @@ const HeroSection = () => {
           <VideoBg autoPlay loop muted src={Video} type="video/mp4"></VideoBg>
         </HeroBg>
         <HeroContent>
-          <HeroH1>Charles's Personal Portfolio Website</HeroH1>
+          <HeroH1>Neque Porro Quisquam</HeroH1>
           <HeroP>
-            Welcome to my website. Feel free to check the projects I have done
-            and the technologies I know of.
+            Quisque non tortor bibendum, vehicula velit eu, lobortis ligula.
+            Nulla commodo dolor at fermentum rutrum. Morbi porta posuere lacus,
+            luctus pulvinar urna viverra at. Sed a turpis neque. Nullam nec sem
+            mi.
           </HeroP>
           <HeroBtnWrapper>
             <Button to="signuip" onMouseEnter={onHover} onMouseLeave={onHover}>

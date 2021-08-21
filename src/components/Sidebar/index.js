@@ -49,14 +49,14 @@ const Sidebar = ({ isOpen, toggle }) => {
             offset={-80}
             onClick={toggle}
           >
-            Services
+            Projects
           </SidebarLink>
           <SidebarLink to="signup" onClick={toggle}>
-            Sign Up
+            Contact
           </SidebarLink>
         </SidebarMenu>
         <SideBtnWrap>
-          <SidebarRoute to="/signin">Sign In</SidebarRoute>
+          <SidebarRoute to="/signin">Full Resume</SidebarRoute>
         </SideBtnWrap>
       </SidebarWrapper>
     </SidebarContainer>
