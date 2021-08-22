@@ -8,6 +8,7 @@ import {
 } from "../components/InfoSection/Data";
 import Navbar from "../components/Navbar";
 import Sidebar from "../components/Sidebar";
+import { Fade } from "react-awesome-reveal";
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -21,9 +22,11 @@ const Home = () => {
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
       <HeroSection />
-      <InfoSection {...homeObjOne} />
-      <InfoSection {...homeObjTwo} />
-      <InfoSection {...homeObjThree} />
+      <Fade>
+        <InfoSection {...homeObjOne} />
+        <InfoSection {...homeObjTwo} />
+        <InfoSection {...homeObjThree} />
+      </Fade>
     </div>
   );
 };

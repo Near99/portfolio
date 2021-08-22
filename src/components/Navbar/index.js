@@ -80,7 +80,7 @@ const Navbar = ({ toggle }) => {
               </NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="signup">Contact</NavLinks>
+              <NavLinks to="/signup">Contact</NavLinks>
             </NavItem>
           </NavMenu>
           <NavBtn>
